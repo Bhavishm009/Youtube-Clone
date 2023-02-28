@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import Paper from "@mui/material/Paper";
 import { useNavigate } from "react-router-dom";
+import { spacing } from "@mui/system";
 const SearchBar = () => {
   const [search, setSearch] = useState("");
    
@@ -29,6 +30,7 @@ const SearchBar = () => {
           pl: 2,
           boxShadow: "none",
           mr: { sm: 5 },
+          
         }}
       >
         <input

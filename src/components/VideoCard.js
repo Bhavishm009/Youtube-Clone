@@ -22,7 +22,7 @@ import {
         sx={{
           width: { xs: "100%", sm: "358px", md: "320px" },
           boxShadow: "none",
-          borderRadius: 0,
+          borderRadius: 4,
         }}
       >
         <Link to={videoId ? `/video/${videoId}` : `/video/cV2gBU6hKfY`}>
